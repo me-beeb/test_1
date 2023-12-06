@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>form_abc</title>
+    <style type="text/css">
+        a {
+         color: black;
+        }
+         </style>
+</head>
+<body>
+<nav>
+    <table border="1" align="center" width=1400>
+        <tr>
+            <td><a href="task1.html"><font color="red">Алгорифмическая задача</font></a></td>
+            <td><a href="passport.html">Считываем информацию из DOM</a></td>
+            <td><a href="passport2.html">Изменяем кириллицу на латыницу по клику</a></td>
+        </tr>
+    </table>
+</nav>
+<p>Принадлежит ли число X диапазону [a, b]?</p>
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <ul>
+        <li>для поисковика:<input name="q" value="search"></li>
+        <li>формулировка задачи <input name="formulation"  value="Принадлежит ли число X диапазону [a, b]?"></li>
+        <li>a: <input id="a" name="a"  type="number" value=10></li>
+        <li>b: <input id="b" name="b"  type="number" value=20></li>
+        <li>x: <input id="x" name="x"  type="number" value=19></li>
+        <li>результат решения: <input name="result" value="не определен"></li>
+        <li>действие 1: <input id="verify" type="button" value="Проверить"></li>
+        <li>действие 2: <input id="send" type="button" value="Отправить"></li>
+    </ul>
+</form>
+<p id="result">Результаты вычислений:  </p>
+<script src="task1.js"></script>
+</body>
